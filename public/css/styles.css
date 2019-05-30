@@ -1,0 +1,41 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 70%;
+    margin: 0 auto;
+    padding: 2em 0em;
+}
+header {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+header a {
+    text-decoration: none;
+    margin-right: 1em;
+    color: grey;
+}
+footer {
+    position: fixed;
+    bottom: 2px;
+}
+form {
+    font-size: 2em;
+}
+form input {
+    font-size: 0.8em;
+    border-radius: 5px;
+    padding: 0.2em 0.4em;
+    border-style: ridge;
+}
+form button {
+    font-size: 0.6em;
+    cursor: pointer;
+    margin-top: 0.2em;
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background: rgba(184, 36, 36, 0.889);
+    color: rgb(170, 166, 159);
+}
+h1 {
+    color: grey;
+}
