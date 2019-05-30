@@ -9,7 +9,7 @@ form.addEventListener('submit',(e)=>{
     success_message.textContent = 'Fetching weather data';
     error_message.textContent = '';
     //debugger;
-    fetch(`http://localhost:3000/weather?address=${location.value}`)
+    fetch(`/weather?address=${location.value}`)
         .then((resp)=>{
             resp.json()
                 .then((data) => {
